@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* Header */
+header {
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+header nav .logo a{
+    color: black;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    column-gap: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* Header */
